@@ -1,4 +1,12 @@
 // TODO: Put everything related to creeps here.
-var creep = (function() {
+var Creep = (function() {
 
+    /**
+     * Constructs a new Creep object.
+     */
+    var init = function() {
+
+    };
+
+    return init;
 }());
