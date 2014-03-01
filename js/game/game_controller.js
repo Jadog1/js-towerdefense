@@ -18,4 +18,4 @@ var GameController = (function() {
     };
 
     return init;
-}());
+})();

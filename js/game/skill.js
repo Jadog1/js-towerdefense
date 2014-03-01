@@ -9,4 +9,4 @@ var Skill = (function() {
     };
 
     return init;
-}());
+})();

@@ -13,4 +13,4 @@ var Tower = (function() {
     };
 
     return init;
-}());
+})();

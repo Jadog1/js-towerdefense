@@ -9,4 +9,4 @@ var Map = (function() {
     };
 
     return init;
-}());
+})();
