@@ -10,4 +10,4 @@ etc.
 
 1. How do you upgrade towers (money vs. experience from kills; manually vs. automatically)?
 2. How many skills/attacks should a tower have?
-3. Should towers use all their skills automatically or does the player have activate some manually? 
+3. Should towers use all their skills automatically or does the player have to activate some manually? 
