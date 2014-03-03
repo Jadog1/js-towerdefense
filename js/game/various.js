@@ -1,8 +1,9 @@
 var Point = (function() {
 
     /**
-     * Constructs a new point in a two dimensional plane. The origin is in the top
-     * left corner, the x-axis is pointing to the right, the y-axis is pointing down.
+     * Constructs a new point in a two dimensional plane. The origin is in the
+     * top left corner, the x-axis is pointing to the right, the y-axis is
+     * pointing down.
      *
      * @param {Integer} x
      * The x-coordinate of the point.
@@ -13,7 +14,7 @@ var Point = (function() {
     var init = function(x, y) {
         this.x = x;
         this.y = y;
-    }
+    };
 
     /**
      * Creates a copy of the provided Point object. The new point has the same
@@ -32,7 +33,15 @@ var Point = (function() {
      */
     init.copy = function(point) {
         return new Point(point.x, point.y);
-    }
+    };
+
+    /**
+     * @return {Double}
+     * The euclidean distance between the two points.
+     */
+    init.distance = function(p1, p2) {
+        Math.sqrt(Math.pow((p1.x - p2.x, 2) + Math.pow(p1.y - p2.y, 2));
+    };
 
     return init;
 })();
